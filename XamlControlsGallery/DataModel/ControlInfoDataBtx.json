@@ -1,0 +1,221 @@
+{
+  "Groups": [
+    {
+      "UniqueId": "NewControls",
+      "Title": "Welcome to Brooto!",
+      "Subtitle": "",
+      "ImagePath": "",
+      "Description": "",
+      "Items": []
+    },
+      {
+          "UniqueId": "AllControls",
+          "Title": "Latest Computers",
+          "Subtitle": "",
+          "ImagePath": "",
+          "Description": "",
+          "Items": []
+      },
+    {
+      "UniqueId": "Latest",
+      "Title": "Gamers United",
+      "Subtitle": "",
+      "ImagePath": "",
+      "Description": "",
+      "Items": [
+        {
+          "UniqueId": "ConnectedAnimation",
+          "Title": "Connected Animation",
+          "Subtitle": "Connected animations continue elements during page navigation and help the user maintain their context between views.",
+          "ImagePath": "ms-appx:///Assets/ConnectedAnimations.png",
+          "Description": "Connected animations continue elements during page navigation and help the user maintain their context between views.",
+          "Content": "<p>Look at the <i>ConnectedAnimationPage.xaml</i> and <i>ConnectedAnimationPage.xaml.cs</i> files in Visual Studio to see the full code for this page.</p>",
+          "IsNew": false,
+          "Docs": [
+            {
+              "Title": "ConnectedAnimation - API",
+              "Uri": "https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.animation.connectedanimation"
+            },
+            {
+              "Title": "ConnectedAnimationService - API",
+              "Uri": "https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.animation.connectedanimationservice"
+            },
+            {
+              "Title": "Guidelines",
+              "Uri": "https://docs.microsoft.com/windows/uwp/design/motion/connected-animation"
+            },
+            {
+              "Title": "Quickstart: Motion",
+              "Uri": "https://docs.microsoft.com/windows/uwp/design/motion/"
+            }
+          ],
+          "RelatedControls": [
+            "PageTransition",
+            "ThemeTransition"
+          ]
+        },
+        {
+          "UniqueId": "EasingFunction",
+          "Title": "Easing Functions",
+          "Subtitle": "Easing is a way to manipulate the velocity of an object as it animates.",
+          "ImagePath": "ms-appx:///Assets/EasingFunctions.png",
+          "Description": "Easing is a way to manipulate the velocity of an object as it animates.",
+          "Content": "<p>Look at the <i>EasingFunctionPage.xaml</i> file in Visual Studio to see the full code for this page.</p>",
+          "IsNew": true,
+          "Docs": [
+            {
+              "Title": "EasingFunctionBase - API",
+              "Uri": "https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.animation.easingfunctionbase"
+            },
+            {
+              "Title": "Timing and Easing",
+              "Uri": "https://docs.microsoft.com/windows/uwp/design/motion/timing-and-easing"
+            },
+            {
+              "Title": "Quickstart: Motion",
+              "Uri": "https://docs.microsoft.com/windows/uwp/design/motion/"
+            }
+          ],
+          "RelatedControls": [
+            "ConnectedAnimation",
+            "PageTransition",
+            "ThemeTransition"
+          ]
+        },
+        {
+          "UniqueId": "PageTransition",
+          "Title": "Page Transitions",
+          "Subtitle": "Page transitions provide visual feedback about the relationship between pages.",
+          "ImagePath": "ms-appx:///Assets/Transitions.png",
+          "Description": "Page transitions provide visual feedback about the relationship between pages.",
+          "Content": "<p>Look at the <i>PageTransitionPage.xaml</i> file in Visual Studio to see the full code for this page.</p>",
+          "IsNew": true,
+          "Docs": [
+            {
+              "Title": "NavigationThemeTransition - API",
+              "Uri": "https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Media.Animation.NavigationThemeTransition"
+            },
+            {
+              "Title": "Guidelines",
+              "Uri": "https://docs.microsoft.com/windows/uwp/design/motion/page-transitions"
+            },
+            {
+              "Title": "Quickstart: Motion",
+              "Uri": "https://docs.microsoft.com/windows/uwp/design/motion/"
+            }
+          ],
+          "RelatedControls": [
+            "ConnectedAnimation",
+            "ThemeTransition"
+          ]
+        },
+        {
+          "UniqueId": "ThemeTransition",
+          "Title": "Theme Transitions",
+          "Subtitle": "Theme transitions are pre-packaged, easy-to-apply animations.",
+          "ImagePath": "ms-appx:///Assets/Transitions.png",
+          "Description": "Theme transitions are pre-packaged, easy-to-apply animations.",
+          "Content": "<p>Look at the <i>ThemeTransitionPage.xaml</i> file in Visual Studio to see the full code for this page.</p>",
+          "IsNew": false,
+          "Docs": [
+            {
+              "Title": "Transitions - API",
+              "Uri": "https://docs.microsoft.com/uwp/api/windows.ui.xaml.uielement.transitions#Windows_UI_Xaml_UIElement_Transitions"
+            },
+            {
+              "Title": "Guidelines",
+              "Uri": "https://docs.microsoft.com/windows/uwp/design/motion/xaml-animation#animations-available-in-the-library"
+            },
+            {
+              "Title": "Quickstart: Motion",
+              "Uri": "https://docs.microsoft.com/windows/uwp/design/motion/"
+            }
+          ],
+          "RelatedControls": [
+            "ImplicitTransition",
+            "PageTransition"
+          ]
+        },
+        {
+          "UniqueId": "XamlCompInterop",
+          "Title": "Animation interop",
+          "Subtitle": "XAML and Composition interop allows you to animate elements using expressions, natural animations, and more.",
+          "ImagePath": "ms-appx:///Assets/StoryboardAnimation.png",
+          "IsNew": false,
+          "Description": "XAML and Composition interop allows you to animate elements using expressions, natural animations, and more",
+          "Content": "<p>Look at the <i>XamlCompInterop.xaml.cs</i> file in Visual Studio to see the full code for this page.</p>",
+          "Docs": [
+            {
+              "Title": "Quickstart: Motion",
+              "Uri": "https://docs.microsoft.com/windows/uwp/design/motion/"
+            },
+            {
+              "Title": "Composition Animation - API",
+              "Uri": "https://docs.microsoft.com/windows/uwp/composition/composition-animation"
+            },
+            {
+              "Title": "Guidelines - Xaml Property Animations",
+              "Uri": "https://docs.microsoft.com/windows/uwp/design/motion/xaml-property-animations"
+            },
+            {
+              "Title": "Using the Visual Layer with XAML",
+              "Uri": "https://docs.microsoft.com/windows/uwp/composition/using-the-visual-layer-with-xaml"
+            }
+          ],
+          "RelatedControls": [
+            "EasingFunction"
+          ]
+        },
+        {
+          "UniqueId": "ImplicitTransition",
+          "Title": "Implicit Transitions",
+          "Subtitle": "Use Implicit Transitions to automatically animate changes to properties.",
+          "ImagePath": "ms-appx:///Assets/Transitions.png",
+          "IsNew": false,
+          "Description": "Use Implicit Transitions to automatically animate changes to properties.",
+          "Content": "<p>Look at the <i>ImplicitTransitionPage.xaml</i> file in Visual Studio to see the full code for this page.</p>",
+          "Docs": [
+            {
+              "Title": "Transitions - API",
+              "Uri": "https://docs.microsoft.com/uwp/api/windows.ui.xaml.uielement.transitions#Windows_UI_Xaml_UIElement_Transitions"
+            },
+            {
+              "Title": "Guidelines",
+              "Uri": "https://docs.microsoft.com/windows/uwp/design/motion/motion-in-practice#implicit-animations"
+            },
+            {
+              "Title": "Quickstart: Motion",
+              "Uri": "https://docs.microsoft.com/windows/uwp/design/motion/"
+            }
+          ],
+          "RelatedControls": [
+            "PageTransition",
+            "ThemeTransition"
+          ]
+        },
+        {
+          "UniqueId": "ParallaxView",
+          "Title": "ParallaxView",
+          "Subtitle": "A container control that provides the parallax effect when scrolling.",
+          "ImagePath": "ms-appx:///Assets/ParallaxView.png",
+          "Description": "A container control that provides the parallax effect when scrolling.",
+          "Content": "",
+          "IsNew": false,
+          "Docs": [
+            {
+              "Title": "ParallaxView - API",
+              "Uri": "https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Parallaxview"
+            },
+            {
+              "Title": "Guidelines",
+              "Uri": "https://docs.microsoft.com/windows/uwp/design/motion/parallax"
+            }
+          ],
+          "RelatedControls": [
+            "ScrollViewer"
+          ]
+        }
+      ]
+    }
+  ]
+}

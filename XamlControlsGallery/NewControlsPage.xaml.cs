@@ -28,7 +28,8 @@ namespace AppUIBasics
             menuItem.IsSelected = true;
             NavigationRootPage.Current.NavigationView.Header = string.Empty;
 
-            Items = ControlInfoDataSource.Instance.Groups.SelectMany(g => g.Items.Where(i => i.BadgeString != null)).OrderBy(i => i.Title).ToList();
+            Items = ControlInfoDataSource.Instance.Groups.SelectMany(g => g.Items.Where(i => i.BadgeString != null))
+                .OrderBy(i => i.Title).Take(3).ToList();
             itemsCVS.Source = FormatData();
         }
 
@@ -39,15 +40,15 @@ namespace AppUIBasics
                         orderby g.Key
                         select new GroupInfoList(g) { Key = g.Key };
 
-            ObservableCollection<GroupInfoList> groupList = new ObservableCollection<GroupInfoList>(query);
+            ObservableCollection<GroupInfoList> groupList = new ObservableCollection<GroupInfoList>(query.Take(3));
 
             //Move Preview samples to the back of the list
-            var previewGroup = groupList.ElementAt(1);
-            if (previewGroup?.Key.ToString() == "Preview")
-            {
-                groupList.RemoveAt(1);
-                groupList.Insert(groupList.Count, previewGroup);
-            }
+            //var previewGroup = groupList.ElementAt(1);
+            //if (previewGroup?.Key.ToString() == "Preview")
+            //{
+            //    groupList.RemoveAt(1);
+            //    groupList.Insert(groupList.Count, previewGroup);
+            //}
 
             foreach (var item in groupList)
             {

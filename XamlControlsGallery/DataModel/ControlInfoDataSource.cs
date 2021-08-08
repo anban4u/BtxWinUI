@@ -1,4 +1,4 @@
-﻿//*********************************************************
+//*********************************************************
 //
 // Copyright (c) Microsoft. All rights reserved.
 // THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF
@@ -187,7 +187,7 @@ namespace AppUIBasics.Data
                 }
             }
 
-            Uri dataUri = new Uri("ms-appx:///DataModel/ControlInfoData.json");
+            Uri dataUri = new Uri("ms-appx:///DataModel/ControlInfoDataBtx.json");
 
             StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(dataUri);
             string jsonText = await FileIO.ReadTextAsync(file);

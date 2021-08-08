@@ -114,6 +114,7 @@
     <Content Include="..\SharedContent\cs\Default.rd.xml">
       <Link>Properties\Default.rd.xml</Link>
     </Content>
+    <Content Include="Assets\Brooto\Brooto Wallpaper-01.jpg" />
     <Content Include="Assets\CopyLinkTeachingTip.png" />
     <Content Include="Assets\LottieLogo1.png" />
     <Content Include="Assets\MainPage_Banner.png" />
@@ -1282,6 +1283,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
+    <Content Include="DataModel\ControlInfoDataBtx.json" />
     <None Include="XamlControlsGallery_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -1289,6 +1291,7 @@
       <Name>Windows Desktop Extensions for the UWP</Name>
     </SDKReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

@@ -64,22 +64,25 @@
             Loaded="OnItemGridViewLoaded"
             SizeChanged="OnItemGridViewSizeChanged"
             SelectionMode="None">
+            <GridView.Background>
+                <ImageBrush ImageSource="/Assets/Brooto/Brooto Wallpaper-01.jpg"/>
+            </GridView.Background>
             <interactivity:Interaction.Behaviors>
                 <behavior:ImageScrollBehavior TargetControl="{Binding ElementName=pageHeader}" />
             </interactivity:Interaction.Behaviors>
 
             <GridView.Header>
-                <Grid Margin="-40,0,-12,-100" Height="220">
+                <Grid Margin="-80,0,-12,-100" Height="200">
                     <ParallaxView
                         x:Name="headerImageView"
-                        Height="250"
+                        Height="210"
                         Margin="0,0,0,0"
                         Source="{x:Bind itemGridView}"
-                        VerticalShift="350">
+                        VerticalShift="700">
                         <Image
                             x:Name="headerImage"
                             HorizontalAlignment="Center"
-                            Source="Assets/MainPage_Banner.png"
+                            Source="Assets/Brooto/Brooto Wallpaper-01.jpg"
                             Stretch="Uniform" />
                     </ParallaxView>
                     <Rectangle Height="60" VerticalAlignment="Bottom" Fill="{StaticResource HeroImageGradientBrush}"/>
@@ -111,5 +114,5 @@
             IsHitTestVisible="False"
             ShadowOpacity="0"/>
     </Grid>
-    
+
 </local:ItemsPageBase>

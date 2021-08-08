@@ -199,7 +199,7 @@ namespace AppUIBasics
             NavigationViewControl.MenuItems.Insert(0, _newControlsMenuItem);
 
             // Separate the All/New items from the rest of the categories.
-            NavigationViewControl.MenuItems.Insert(2, new Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator());
+            NavigationViewControl.MenuItems.Insert(1, new Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator());
 
             _newControlsMenuItem.Loaded += OnNewControlsMenuItemLoaded;
         }
